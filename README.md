@@ -1,3 +1,3 @@
-#Kokoa Clone 2021 update
+# Kokoa Clone 2021 update
 
-CSS got so much better!
+나는 코딩왕이 될꺼야 다들 기대해!

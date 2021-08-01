@@ -33,3 +33,22 @@
   width: 80px;
   height: 80px;
 }
+
+.user-component__time {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.user-component__name--not--bold {
+  font-weight: 400;
+}
+.user-componet__column:last-child {
+  color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.alert-color {
+  color: red;
+}

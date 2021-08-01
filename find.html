@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Find-KokoaClone</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+        <!-- To do : wifi icon -->
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>110%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+        <!-- battery icon -->
+        <!-- lighting icon -->
+      </div>
+    </div>
+
+    <header class="screen-header">
+      <h1 class="screen-header__title">Find</h1>
+      <div class="screen-header__icons">
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="fas fa-cog fa-lg"></i></span>
+        <span class="red-dot"></span>
+      </div>
+    </header>
+
+    <main class="main-screen">
+      <div class="icon-row">
+        <div class="icon-row__icon">
+          <i class="fas fa-qrcode"></i>
+          <span>QR 코드</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="far fa-address-book"></i>
+          <span>친구 추가</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fas fa-fingerprint"></i>
+          <span>ID 추가</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="far fa-envelope"></i>
+          <span>초대</span>
+        </div>
+      </div>
+      <div class="recommended-friends">
+        <h6 class="recommended-friends__title">추천 친구</h6>
+        <span>추천 친구가 없습니다.</span>
+      </div>
+      <div class="open-chat">
+        <div class="open-chat__header">
+          <h4 class="open-chat__title">오픈 채팅</h4>
+          <span
+            >오픈 채팅 홈으로 <i class="fas fa-chevron-right fa-xs"></i
+          ></span>
+        </div>
+        <div class="open-post">
+          <div class="open-post__column">
+            <h5 class="open-post__title">#잔나비</h5>
+            <h6 class="open-post__hashtags">#잔나비#좋아요#사랑해요</h6>
+            <div class="open-post__members">
+              <img
+                src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTA3MTlfOTEg%2FMDAxNjI2NjM4NzUyNDAw.ADkEZ3JKcO7UNpb50CDu_cdnI7nKOshHLIWb-MPGyAEg.SsVxmhjYTImPr5EXnuBJSbPKnG8Bo8H_dwOa_u63Pf0g.JPEG.celclassic%2FIMG_9227.jpg&type=a340"
+              />
+              <span class="open-post__member-count">310명</span>
+              <div class="divider"></div>
+              <span class="open-post__member-status">활동중</span>
+            </div>
+          </div>
+          <div class="open-post__column">
+            <div class="open-post__photo">
+              <img
+                src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTAxMjFfMjMx%2FMDAxNjExMjA4MTU4Nzcy.X47bvWonUaxs3hwN3lzGoE_JR4QjNxvxQXx0BDU2-Qkg.JRzEVts7UTQZRAK9foxp5Y0phQ7ajMzIqDwQ41hEgz0g.JPEG.bangjineui%2F5598A348-235E-4778-9EA0-332245B3DB80.jpg&type=sc960_832"
+              />
+              <div class="open-post__heart">
+                <i class="fas fa-heart"></i><span>777</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html"
+            ><i class="far fa-user fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html">
+            <span class="nav__notification badge"> 1 </span>
+            <i class="far fa-comment fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="find.html"
+            ><i class="fas fa-search fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html">
+            <span class="nav__dot"></span>
+            <i class="fas fa-ellipsis-h fa-2x"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
